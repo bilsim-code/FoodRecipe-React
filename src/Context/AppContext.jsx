@@ -9,7 +9,7 @@ const ProviderFunction = (props) => {
     const [recipeList,setRecipeList] = useState([])
     const [recipeDetailsData, setRecipeDetailsData] = useState(null)
     const [favoriteList, setFavoriteList] = useState([])
-   async function handleSubmit(e) {
+   async function handleSubmit(e)   {
         e.preventDefault();
         try {
             setLoading(true)
